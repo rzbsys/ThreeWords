@@ -148,7 +148,7 @@ function ThreeWordsView({ viewModel }) {
 					term={viewModel.discussionId}
 					emitMetadata='0'
 					inputPosition='top'
-					theme='preferred_color_scheme'
+					theme='light'
 					lang='ko'
 					loading='lazy'
 				></Giscus>
