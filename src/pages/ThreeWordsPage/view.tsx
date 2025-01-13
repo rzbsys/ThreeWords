@@ -6,7 +6,8 @@ import Giscus from "@giscus/react";
 
 const ThreeWordsContainer = styled.div`
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
+	padding-bottom: 100px;
 `;
 
 const ThreeWordsSection = styled.section`
@@ -98,6 +99,14 @@ const DetailButton = styled.button`
     `}
 `;
 
+// const MetaContainer = styled.div`
+// 	display: flex;
+// 	width: 100%;
+
+// 	text-align: center;
+// 	justify-content: center;
+// `;
+
 function ThreeWordsView({ viewModel }) {
 	return (
 		<ThreeWordsContainer>
@@ -120,6 +129,14 @@ function ThreeWordsView({ viewModel }) {
 			<DetailButton onClick={viewModel.onDetailButtonClick}>
 				왜 3단어가 중요할까요?
 			</DetailButton>
+			{/* <MetaContainer>
+				<iframe
+					title='disquiet-badge'
+					frameBorder='0'
+					src='https://badge.disquiet.io/vote-badge?productUrlSlug=threewords&mode=light'
+				/>
+			</MetaContainer> */}
+
 			<DiscussionContainer>
 				<Giscus
 					repo='rzbsys/ThreeWords'
