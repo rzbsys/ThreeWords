@@ -29,6 +29,10 @@ jobs:
       - name: Install dependencies
         run: npm install
         if: steps.cache.outputs.cache-hit != 'true'
+      - name: Set environment variables
+        run: |
+          PUBLIC_URL=$(echo $GITHUB_REPOSITORY | sed -r 's/^.+\/(.+)$/\/\1\//')
+          echo "PUBLIC_URL=$PUBLIC_URL" >> .env
       - name: Build project
         run: npm run build
       - uses: peaceiris/actions-gh-pages@v4
