@@ -1,3 +1,4 @@
+import { media } from "@styles/media";
 import React from "react";
 import styled from "styled-components";
 
@@ -11,6 +12,10 @@ const HeaderContainer = styled.div`
 const HeaderTitleText = styled.h1`
 	font-size: 1.3rem;
 	margin-left: 30px;
+
+	${media.phone`;
+        margin-left: 15px;
+    `}
 `;
 
 function Header() {
