@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ThreeWords/static/css/main.cf95dfe2.css",
-    "main.js": "/ThreeWords/static/js/main.a5d1c323.js",
-    "static/js/821.c925bd7e.chunk.js": "/ThreeWords/static/js/821.c925bd7e.chunk.js",
-    "service-worker.js": "/ThreeWords/service-worker.js",
-    "index.html": "/ThreeWords/index.html",
-    "main.cf95dfe2.css.map": "/ThreeWords/static/css/main.cf95dfe2.css.map",
-    "main.a5d1c323.js.map": "/ThreeWords/static/js/main.a5d1c323.js.map",
-    "821.c925bd7e.chunk.js.map": "/ThreeWords/static/js/821.c925bd7e.chunk.js.map"
+    "main.css": "threewords.space/static/css/main.cf95dfe2.css",
+    "main.js": "threewords.space/static/js/main.c680bd68.js",
+    "static/js/821.c925bd7e.chunk.js": "threewords.space/static/js/821.c925bd7e.chunk.js",
+    "service-worker.js": "threewords.space/service-worker.js",
+    "index.html": "threewords.space/index.html",
+    "main.cf95dfe2.css.map": "threewords.space/static/css/main.cf95dfe2.css.map",
+    "main.c680bd68.js.map": "threewords.space/static/js/main.c680bd68.js.map",
+    "821.c925bd7e.chunk.js.map": "threewords.space/static/js/821.c925bd7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf95dfe2.css",
-    "static/js/main.a5d1c323.js"
+    "static/js/main.c680bd68.js"
   ]
 }
