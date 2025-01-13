@@ -63,6 +63,7 @@ const DiscussionContainer = styled.div`
 	width: 60%;
 	margin: 0px auto;
 	margin-top: 40px;
+	margin-bottom: 50px;
 	height: 100%;
 
 	${media.phone`;
